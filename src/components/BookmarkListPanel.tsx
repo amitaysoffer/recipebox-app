@@ -19,7 +19,7 @@ export default function BookmarkListPanel() {
         className="absolute inset-0 bg-slate-800/80"
         onClick={() => setShowPanel(false)}
       />
-      <div className="w-full fixed right-0 bottom-0 h-[400px] bg-black rounded-sm p-5">
+      <div className="w-full fixed right-0 bottom-0 h-[400px] pb-16 bg-black rounded-sm p-5">
         <div className="text-end">
           <button className="text-white " onClick={() => setShowPanel(false)}>
             <svg
@@ -55,7 +55,7 @@ function RecipeboxList() {
             <img
               src={image[0].url}
               alt={image[0].title}
-              className="rounded-t-lg w-14 h-14 object-cover "
+              className="rounded-lg w-14 h-14 object-cover "
             />
 
             <h3 className="text-white">{title}</h3>
