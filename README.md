@@ -10,9 +10,9 @@ An app that fetches data from an api and displays the different recipeboxes to t
 
 ## Tech used
 
-- React, Typescript, Vite
+- React, Typescript, Vite, hero-icons
 
-#### Notes to reviewer:
+## Notes:
 
 - I used a simple useEffect to fetch the data on mount. For a bigger app, I'd use a fetching data library such as react query or SWR.
 - I added a react hook called useKeyup. I made it generic, but in this particular use case it is only used when closing the panel on clicking the escape key.
